@@ -17,7 +17,7 @@ public class Main {
         scanner.close();
     }
 
-    // Método para verificar se o ano é bissexto
+    
     public static boolean ehBissexto(int ano) {
 
         return (ano % 4 == 0 && ano % 100 != 0) || (ano % 400 == 0);
